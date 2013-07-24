@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/African-Woman_o.jpg</file>
+        <file>Images/African-Woman_unsharp.jpg</file>
+        <file>Images/hair_left.jpg</file>
+        <file>Images/hair_right.jpg</file>
+        <file>Images/Woman_o.bmp</file>
+    </qresource>
+</RCC>

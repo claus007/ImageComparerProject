@@ -1,0 +1,3 @@
+[submodule "ImageComparer"]
+	path = ImageComparer
+	url = git@github.com:claus007/ImageComparerLibrary.git

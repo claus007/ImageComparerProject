@@ -1,6 +1,5 @@
 TEMPLATE = subdirs
 
-SUBDIRS += ImageComparerTestSuite \
-    ImageComparer
+SUBDIRS += ImageComparer ImageComparerTestSuite
 
 CONFIG = ordered

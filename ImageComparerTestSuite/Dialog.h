@@ -27,6 +27,8 @@ namespace Ui {
 class Dialog;
 }
 
+class QListWidgetItem;
+
 class Dialog : public QDialog
 {
     Q_OBJECT
@@ -38,6 +40,9 @@ public:
 protected:
     void makePicture(QString orgImage,QString newImage);
     QIcon combine(QString orgImage,QString newImage);
+private slots:
+    void on_listWidget_itemClicked(QListWidgetItem *item);
+
 private:
     Ui::Dialog *ui;
 };

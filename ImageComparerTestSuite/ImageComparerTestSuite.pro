@@ -23,4 +23,5 @@ RESOURCES += \
     images.qrc
 
 LIBS += -L ../build -l ImageComparer
-INCLUDEPATH += ../ImageComparer
+INCLUDEPATH += ../ImageComparer \
+    ..

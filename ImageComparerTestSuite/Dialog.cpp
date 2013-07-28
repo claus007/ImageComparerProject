@@ -32,6 +32,7 @@ Dialog::Dialog(QWidget *parent) :
     ui(new Ui::Dialog)
 {
     ui->setupUi(this);
+    makePicture("African-Woman_o.jpg","African-Woman_logo.jpg");
     makePicture("African-Woman_o.jpg","African-Woman_unsharp.jpg");
     makePicture("hair_left.jpg","hair_right.jpg");
 }
